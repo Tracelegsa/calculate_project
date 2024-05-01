@@ -1,0 +1,14 @@
+table {
+    border-collapse: collapse;
+}
+td {
+    padding : 5px 10px;     /* 2개의 padding 속성값을 가질 때는 top과 bottom, right와 left 순으로 설정*/
+    text-align: center;
+}
+input {
+    text-align: right;
+     /* input칸을 클릭했을떄 파란색 선이 나오는 걸 없애기 위해  */
+}
+input:focus {
+    outline:red;
+}
